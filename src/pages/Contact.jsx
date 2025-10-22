@@ -33,7 +33,7 @@ export default function Contact() {
                     
                     <div className="w-full order-2 sm:order-1">
                         <h4>Map</h4>
-                        <div className="w-full h-[400px] rounded-xl overflow-hidden pr-6">
+                        <div className="w-full h-[400px] rounded-xl overflow-hidden sm:pr-6">
                             <iframe
                             title="Google Map"
                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19843.162682978165!2d-0.12574!3d51.50853!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761b3330c3fcb1%3A0x6b4d7a2ecf9dcae!2sLondon!5e0!3m2!1sen!2suk!4v1696840000000!5m2!1sen!2suk"

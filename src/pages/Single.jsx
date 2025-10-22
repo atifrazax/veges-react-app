@@ -27,11 +27,11 @@ export default function Single() {
                     </div>
                     <div className="flex flex-col space-y-4">
                         <h2>Bell Pepper</h2>
-                        <div className="flex flex-col space-y-2 sm:flex-row sm:space-y-0 animate">
+                        <div className="flex flex-row space-y-2 sm:flex-row sm:space-y-0 animate">
                             <span className="text-primary me-2">5.0</span>
-                            <span className="text-primary me-8"><i className="bi bi-star-fill"></i><i className="bi bi-star-fill"></i><i className="bi bi-star-fill"></i><i className="bi bi-star"></i><i className="bi bi-star"></i></span>
-                            <span className="me-2">100</span><span className="text-gray-400 me-8"> Rating</span>
-                            <span className="me-2">500</span><span className="text-gray-400 me-8"> Sold</span>
+                            <span className="text-primary me-2 sm:me-8 "><i className="bi bi-star-fill"></i><i className="bi bi-star-fill"></i><i className="bi bi-star-fill"></i><i className="bi bi-star"></i><i className="bi bi-star"></i></span>
+                            <span className="me-2">100</span><span className="text-gray-400 me-2 sm:me-8"> Rating</span>
+                            <span className="me-2">500</span><span className="text-gray-400 me-2 sm:me-8"> Sold</span>
                         </div>
                         <span className="text-4xl mt-2 animate">$4.90</span>
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda corrupti, sed fuga praesentium ex omnis aliquid error blanditiis excepturi, sequi dignissimos quaerat suscipit vero molestias deserunt, quis maiores molestiae eos quas minima. Nihil, mollitia ullam debitis laborum illo error facilis!</p>

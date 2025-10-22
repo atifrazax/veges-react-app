@@ -24,7 +24,7 @@ function Products() {
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 text-center uppercase'>
                 {productData.map((product) => (
                     <div key={product.id} className='w-full flex flex-col border border-gray-200 font-light group relative animate'>
-                        <img src={product.src} alt="" className='relative transform group-hover:scale-110 transition-all duration-300 p-4'/>
+                        <img src={product.src} alt={product.name} loading="lazy" className='relative transform group-hover:scale-110 transition-all duration-300 p-4'/>
                         {product.discount && <span className='absolute bg-primary text-secondary text-sm py-1 px-3'>{product.discount}%</span>}
                         <h5 className='my-3'>{product.name}</h5>
                         <span className='text-primary mb-5'>${product.newPrice} <del className='text-gray-400'>${product.price}</del></span>

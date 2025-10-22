@@ -9,11 +9,11 @@ export default function Vegetables() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4 w-full max-w-5xl mx-auto">
         
         <div className=" relative order-3 md:order-2 animate">
-            <img src="./fruits.jpg" alt="Fruits" className=""/>
+            <img src="./fruits.jpg" alt="Fruits" loading="lazy" className=""/>
             <span className="absolute bottom-0 left-0 bg-primary text-secondary py-1 px-3">Fruits</span>
         </div>
         <div className="relative bg-pink-400 order-5 md:order-3 animate">
-            <img src="./juices.jpg" alt="Juices" className=""/>
+            <img src="./juices.jpg" alt="Juices" loading="lazy" className=""/>
             <span className="absolute bottom-0 left-0 bg-primary text-secondary py-1 px-3">Juices</span>
         </div>
 
@@ -24,17 +24,17 @@ export default function Vegetables() {
              <Button name="Shop Now" link="/shop" className="w-1/2 mt-4 border-primary"/>
         </div>
         <div className="relative order-4 md:order-5 animate">
-            <img src="./dries.jpg" alt="Dry Fruits" className=""/>
+            <img src="./dries.jpg" alt="Dry Fruits" loading="lazy" className=""/>
             <span className="absolute bottom-0 left-0 bg-primary text-secondary py-1 px-3">Dries</span>
         </div>
 
         
         <div className=" relative order-5 md:order-4 animate">
-            <img src="./veges-1.jpg" alt="Vegetables" className=""/>
+            <img src="./veges-1.jpg" alt="Vegetables" loading="lazy" className=""/>
             <span className="absolute bottom-0 left-0 bg-primary text-secondary py-1 px-3">Vegetables</span>
         </div>
         <div className=" relative order-2 md:order-4 animate">
-            <img src="./fruits-1.png" alt="juices" className="flex"/>
+            <img src="./fruits-1.png" alt="juices" loading="lazy" className="flex"/>
         </div>
         </div>
         </div>

@@ -3,7 +3,7 @@ import DealTimer from "./Timer"
 export default function Deals() {
     return(
         <section className="relative w-full h-[90vh] flex justify-center text-center overflow-hidden">
-            <img src="./vegetables.webp" alt="banner" className="absolute w-full h-full object-cover" />
+            <img src="./vegetables.webp" alt="banner" loading="lazy" className="absolute w-full h-full object-cover" />
             
             <div className="relative z-10 text-white max-w-3xl px-4 top-10">
                 <span className='text-primary mb-5'>Best Price For You</span>

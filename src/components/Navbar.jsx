@@ -29,7 +29,7 @@ export default function MyNavbar() {
           inline
           arrowIcon={false}
           label={
-            <span className={`${activeClass} flex items-center gap-1 text-md sm:text-xs text-gray-700 hover:text-primary uppercase`}>
+            <span className={`${activeClass} flex items-center gap-1 text-md sm:text-xs hover:text-primary uppercase`}>
               Shop <i className="bi bi-chevron-down text-[10px]" />
             </span>
           }

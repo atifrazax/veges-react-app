@@ -34,6 +34,7 @@ export default function Testimonials() {
                             <img
                             src={item.src}
                             alt={item.author}
+                            loading="lazy"
                             className="object-cover w-full h-full"
                             />
                             {/* <span className="absolute bottom-0 right-0 text-4xl text-dark">""</span> */}

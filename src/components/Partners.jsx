@@ -13,7 +13,7 @@ export default function Partners() {
             <div className="container mx-auto max-w-7xl px-4 md:px-6 lg:px-10 gap-y-10 sm:gap-y-0 ">
                 <div className="grid grid-cols-2 md:grid-cols-4 gap-10">
                     {partners.map((partner, index) => (
-                        <img key={index} src={partner.src} alt={partner.alt} />
+                        <img key={index} src={partner.src} loading="lazy" alt={partner.alt} />
                     ))}
                     
                 </div>

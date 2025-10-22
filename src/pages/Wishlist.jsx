@@ -2,6 +2,7 @@
 import Banner from "../components/Banner";
 import Subscriber from "../components/Subscribe";
 import Button from "../components/Button";
+import { useObserver } from "../assets/hooks/Observer";
 
 
 export default function Wishlist() {
@@ -13,6 +14,7 @@ export default function Wishlist() {
         { id: 5, name: "Tomato", image: "./product-2.jpg", price: 2.90, quantity: 1, description: "Far far away, behind the word from the countries Vokalia and Consonantia" },
         { id: 6, name: "Brocolli", image: "./product-7.jpg", price: 1.90, quantity: 4, description: "Word mountains, far from the countries Vokalia and Consonantia" },
     ]
+    useObserver();
 
     return (
         <>

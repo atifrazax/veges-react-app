@@ -7,7 +7,7 @@ export default function Footer () {
         useObserver();
     return (
         <footer className="relative bg-secondary py-30">
-            <span onClick={scrollSmooth} className="absolute top-0 left-1/2 rounded-full w-12 h-12 bg-primary flex justify-center items-center cursor-pointer">
+            <span onClick={scrollSmooth} className="absolute top-0 left-1/2 right-1/2 -translate-x-1/2 -translate-y-1/2 rounded-full w-12 h-12 bg-primary flex justify-center items-center cursor-pointer">
                 <i className="bi bi-arrow-up text-light  animate-bounce"/>
             </span>
             <div className="container mx-auto max-w-7xl px-4 md:px-6 lg:px-10 flex flex-col sm:flex-row justify-between gap-y-10 sm:gap-y-0 ">
