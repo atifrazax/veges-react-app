@@ -12,7 +12,7 @@ export default function Deals() {
                 </p>
                 <h3 className='text-primary mb-1 text-2xl'>Bell Pepper</h3>
                 <span className='text-primary mb-3'><del>$10</del> now $5 only</span>
-                <DealTimer endDate="2025-10-25T00:00:00"/>
+                <DealTimer endDate={`${new Date().getFullYear()}-12-31T23:59:59`}/>
             </div>
         </section>
     )

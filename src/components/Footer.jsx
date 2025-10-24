@@ -53,7 +53,7 @@ export default function Footer () {
                 </div>
             </div>
             <div className="container mx-auto max-w-7xl px-4 md:px-6 lg:px-10 justify-center text-center pt-20">
-                <span>Copyright ©2025 All rights reserved | This template is made with ❤️ by <a href="https:atifraza.is-great.net/" className="font-bold uppercase">Atif</a></span>
+                <span>Copyright ©{new Date().getFullYear()} All rights reserved | This template is made with ❤️ by <a href="https://atifraza.is-great.net/" className="font-bold uppercase" target="_blank" rel="noopener noreferrer">Atif</a></span>
             </div>
         </footer>
     )

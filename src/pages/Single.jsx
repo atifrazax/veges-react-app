@@ -44,9 +44,9 @@ export default function Single() {
                             </select>
                         </div>
                         <div>
-                            <button type="submit" onClick={handleMinusCount} className="border-gray-100 border-2 py-2 px-4 me-2">-</button>
-                            <input type="number" value={count || 1} min={1} readOnly className="border-gray-300 text-center px-1 sm:px-0"/>
-                            <button type="submit" onClick={handlePlusCount} className="border-gray-100 border-2 py-2 px-4 ms-2">+</button>
+                            <button type="button" onClick={handleMinusCount} className="border-gray-100 border-2 py-2 px-4 me-2">-</button>
+                            <input type="number" value={count || 1} min={1} max={10} readOnly className="border-gray-300 text-center px-2"/>
+                            <button type="button" onClick={handlePlusCount} className="border-gray-100 border-2 py-2 px-4 ms-2">+</button>
                         </div>
                         <small>In Stock</small>
                         <Button name="Add to Cart" className="mt-4 w-1/2 animate"/>
