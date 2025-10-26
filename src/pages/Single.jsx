@@ -8,6 +8,7 @@ export default function Single() {
     const [count, setCount] = useState(0);
 
     const handlePlusCount = () => {
+        if (count >= 10) return;
         setCount(count + 1);
     };
     const handleMinusCount = () => {

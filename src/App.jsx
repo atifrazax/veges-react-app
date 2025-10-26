@@ -13,6 +13,7 @@ import Wishlist from './pages/Wishlist'
 import Shop from './pages/Shop'
 import Single from './pages/Single'
 import Checkout from './pages/Checkout'
+import Page404 from './pages/Page404'
 
 function App() {
 
@@ -32,6 +33,7 @@ function App() {
       <Route path="/shop" element={<Shop />} />
       <Route path="/single" element={<Single />} />
       <Route path="/checkout" element={<Checkout />} />
+      <Route path="*" element={<Page404 />} />
     </Routes>
 
     <Footer />
